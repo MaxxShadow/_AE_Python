@@ -97,6 +97,8 @@ if __name__ == "__main__":
    print(f"\nSeznamy \n  {s_1=} \n  {s_2=}")
    print(f"  {posun=}")
 
+   # 240728-MX: Následující dva kroky, tj. volání uprav_seznamy a sečtení prvků se dají vytahnout mimo __main__
+
    # upravy a posuny
    s_1_k, s_2_k = uprav_seznamy(s_1,s_2,posun)
    print(f"\nSeznamy po uprave \n  {s_1_k=} \n  {s_2_k=}")
